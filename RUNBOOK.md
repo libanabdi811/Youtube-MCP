@@ -28,3 +28,16 @@ Repo: libanabdi811/Youtube-MCP. Branch `engine` = this code. Branch `videos` = r
 - No invented statistics or expert quotes. No repeated topics (check TOPICS.md).
 - YouTube rejects < or > in titles, descriptions and tags: never use them (no arrows).
 - Style: dark scenes, white stick figures, speech bubbles, gold/red/blue accents, synthesized music.
+
+## VIRAL FORMAT v2 (use this from 2026-11-13; old format underperformed)
+Use `viral.py` (frame_fn_v2 / build_v2; example class `Phone2AM`) instead of the old frame_fn.
+- **Length 20–28 s.** Shorter = more full watches and loops. No dead time.
+- **Frame 1 = the drama, not a title card.** Open mid-moment (a phone buzzing, a slammed door, a shout). Never a dimmed intro card.
+- **Persistent hook banner** at the top for the whole video (`banner = 'LINE ONE. / *PAYOFF LINE.*'`). Curiosity gap: tease the twist without lying.
+- **A twist or reveal by ~40% of the runtime**: the obvious assumption is wrong (e.g. the 2 AM text was her therapist). Honest, not cheap clickbait; never cheating/abuse bait.
+- **Camera**: punch-in on whoever speaks (cam keyframes 1.25–1.35x), wide shot for reactions, one short shake on the impact moment.
+- **Bubbles 1.5–2.3 s each**, max 3 short lines. Every 2–3 s something changes on screen.
+- **Ending ≤ 8 s**: one lesson line + one smaller line + a *debate question* ("Would you have reacted like him?"); questions that people answer in comments beat generic CTAs.
+- **Titles**: ≤ 55 chars, curiosity + emotion, mirror the banner (e.g. "Her phone lit up at 2 AM. He saw the name.").
+- Rotate formats: twist reveal, "which one are you?" split-screen, POV, "3 words that…", before/after.
+- Check performance in TOPICS.md each run: copy what got the most views, drop what didn't.
