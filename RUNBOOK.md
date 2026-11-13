@@ -26,4 +26,5 @@ Repo: libanabdi811/Youtube-MCP. Branch `engine` = this code. Branch `videos` = r
 - 5 per day: Marriage advice, Better husband, Better wife, Family & parenting, Relationship lesson.
 - Hook in first 2 s; story; lesson; question CTA. 30–40 s. Never blame one gender.
 - No invented statistics or expert quotes. No repeated topics (check TOPICS.md).
+- YouTube rejects < or > in titles, descriptions and tags: never use them (no arrows).
 - Style: dark scenes, white stick figures, speech bubbles, gold/red/blue accents, synthesized music.
