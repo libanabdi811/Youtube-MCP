@@ -41,3 +41,26 @@ Use `viral.py` (frame_fn_v2 / build_v2; example class `Phone2AM`) instead of the
 - **Titles**: ≤ 55 chars, curiosity + emotion, mirror the banner (e.g. "Her phone lit up at 2 AM. He saw the name.").
 - Rotate formats: twist reveal, "which one are you?" split-screen, POV, "3 words that…", before/after.
 - Check performance in TOPICS.md each run: copy what got the most views, drop what didn't.
+
+## CHANNEL PIVOT (2026-11-14): now "Leonida Unlocked", a GTA 6 fan channel
+The marriage videos were made private on 2026-11-14. All new videos are GTA 6 Shorts in VIRAL FORMAT v2.
+GTA VI launches 19 November 2026 (confirmed by Rockstar). Use the countdown hard until launch, then launch-week content.
+
+### Hard rules (copyright, trademark and honesty)
+- 100% original visuals made with the engine. NEVER use Rockstar trailers, gameplay, screenshots, music, logos,
+  the GTA VI logo style, or drawings of Rockstar characters (do not draw Jason, Lucia or any GTA character, vehicle
+  or map). Our own generic stick-figure "gamer" characters, neon/sunset scenes, text cards and icons only.
+- Never imply we are Rockstar or official. Every description ends with:
+  "Fan channel. Not affiliated with or endorsed by Rockstar Games or Take-Two Interactive."
+- FACTS: before writing, WebSearch the latest GTA 6 news. State as fact only what Rockstar/Take-Two confirmed or
+  what major outlets report as confirmed, and keep the source in the run log. Label rumours/leaks as "RUMOUR",
+  never invent leaks, prices, file sizes, map details or dates. No piracy, cheats-for-sale or "free GTA 6" bait.
+
+### Formats that fit (rotate, 20–28 s)
+- Countdown: "5 DAYS TO GTA 6. / *Here's what's confirmed.*" (3 confirmed facts, punchy).
+- Relatable gamer skits with our stick figures: launch-day prep, the boss/partner/parents vs. launch night,
+  friend who spoils everything, "which gamer are you?" (comedy, nobody humiliated, don't encourage lying or
+  skipping school/work dangerously).
+- Confirmed vs rumour cards; "things to do before launch" (free up storage, check pre-load, etc. — only if verified).
+- Debate question ending ("Day-one player or waiting for reviews?").
+Titles <= 55 chars, include "GTA 6". Hashtags: #GTA6 #GTAVI #Gaming #Shorts. Category: Gaming (categoryId 20).
