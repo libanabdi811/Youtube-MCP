@@ -65,3 +65,10 @@ TEMPLATE: gta_example.py (class GTA5Days) is the approved example: gamer room, c
 - Confirmed vs rumour cards; "things to do before launch" (free up storage, check pre-load, etc. — only if verified).
 - Debate question ending ("Day-one player or waiting for reviews?").
 Titles <= 55 chars, include "GTA 6". Hashtags: #GTA6 #GTAVI #Gaming #Shorts. Category: Gaming (categoryId 20).
+
+## OLD vs NEW gameplay comparisons (user's OWN recordings only)
+When the user attaches their own GTA 5 / GTA 6 gameplay clips, build split-screen Shorts with
+`python3 compare.py OLD.mp4 NEW.mp4 OUT.mp4 "GTA 5 VS GTA 6 / *CAR-JACKING*" 2013 2026 [seconds]`
+(OLD on top, NEW below, year labels, hook banner, "Which one looks better?" + fan disclaimer at the end).
+Shot list to match pairs: car-jacking, police chase, swimming/diving, entering a shop, night city drive, crash/ragdoll.
+Never use footage that isn't the user's own recording (no trailers, no other creators' clips).
