@@ -45,6 +45,7 @@ Use `viral.py` (frame_fn_v2 / build_v2; example class `Phone2AM`) instead of the
 ## CHANNEL PIVOT (2026-11-14): now "Leonida Unlocked", a GTA 6 fan channel
 The marriage videos were made private on 2026-11-14. All new videos are GTA 6 Shorts in VIRAL FORMAT v2.
 GTA VI launches 19 November 2026 (confirmed by Rockstar). Use the countdown hard until launch, then launch-week content.
+TEMPLATE: gta_example.py (class GTA5Days) is the approved example: gamer room, calendar countdown, phone-call twist, fact cards, debate ending, fan disclaimer.
 
 ### Hard rules (copyright, trademark and honesty)
 - 100% original visuals made with the engine. NEVER use Rockstar trailers, gameplay, screenshots, music, logos,
