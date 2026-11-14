@@ -47,3 +47,22 @@ Not yet confirmed / avoid stating: per-platform file sizes, exact unlock time, P
 
 ## Performance (vidiq_user_videos, 2026-11-14 00:45 UK)
 - No public GTA videos yet (channel shows only the old private marriage Shorts; nothing scheduled). First GTA views to log next run.
+
+## 2026-11-14 — GTA 6 batch 2 (videos_gta_d2.py, out_2026-11-14b), drafts in vidIQ awaiting approval
+Note: at 06:40 UK no scheduled videos and no dated vidIQ drafts were found (batch-1 drafts above no longer listed), so batch 2
+took the 14 Nov slots. vidIQ postIds: 636e20b3 (09:00), 634b43d7 (12:00), ae463788 (15:00), 18606d62 (18:00), f147ad28 (21:00).
+H1. Countdown, 3 new confirmed facts (30fps target on consoles; PS5 Pro PSSR + RT shadows; record pre-orders per Sony+Xbox), twist "30 FPS?! ...still playing 300 hours" — "GTA 6: 5 Days Left and 3 New Confirmed Facts" — neon sunset, 6-to-5 flip, cards, debate "is 30 FPS a dealbreaker?"
+H2. Skit: Kiwi mate on video call unlocks 13 h earlier, twist: he waits to play together — "His Mate Gets GTA 6 13 Hours Before Him" — TV video call, NZ vs UK times (PS Store listings, not Rockstar-confirmed)
+H3. "Which one are you?" launch-night types (alarm setter, snack hoarder, one-more-mission, radio surfer, #5 asleep at 11:58) — "GTA 6 Launch Night: Which One Are You?"
+H4. Fact or rumour cards (Vintage Vice City Pack before 20 Nov CONFIRMED; global unlock time RUMOUR; $79.99/$99.99 US CONFIRMED; December disc RUMOUR) — "GTA 6: Fact or Rumour? Don't Fall for #2"
+H5. Skit: midnight "UPDATE REQUIRED", twist: housemate left it in rest mode with auto-updates — "GTA 6 Unlocks at Midnight. Then This Pops Up." (~1 GB patch 13 Nov = REPORTED by trackers)
+Do not repeat next run: 30fps/PS5 Pro, record pre-orders, NZ-first/13 hours, launch-night types, Vintage Vice City Pack, prices, disc rumour, rest-mode/auto-update tip.
+Sources: Rockstar 10 Nov (30fps, PS5 Pro PSSR + RT shadows) via shacknews.com/article/151314/gta-6-30-fps-consoles and invenglobal.com/articles/28416 ;
+record pre-orders: insider-gaming.com/gta-6-most-pre-ordered-game-playstation-xbox/ , gfinityesports.com (Sony & Xbox confirm);
+unlock times (PS Store listings): dexerto.com/gta/north-american-gta-6-fans-will-be-among-the-last-to-play-thanks-to-regional-launch-3406565/ , mp1st.com/news/gta-6-unlock-times-revealed ;
+prices + Vintage Vice City Pack: thesixthaxis.com/2026/06/24/gta-6-ultimate-edition-pre-order-bonus-and-vintage-vice-city-pack-revealed/ , gtabase.com launch prep guide;
+~1 GB update (tracker report): techtimes.com/articles/330664/20261113/ ; disc-in-December rumour (PPE.pl via gtabase).
+Ideas for next run (launch week): GTA VI: The Festival Miami 21 Nov (Rockstar + PlayStation, verify), GTA VI: The Album 34 tracks out 19 Nov (verify), physical box = download code (verify), review-embargo/launch-day skits.
+
+## Performance (vidiq_user_videos, 2026-11-14 06:40 UK)
+- Still no public GTA videos (only old private marriage Shorts). Nothing scheduled yet; first GTA views to log next run.
