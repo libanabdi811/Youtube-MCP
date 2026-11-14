@@ -1,6 +1,7 @@
 """Split-screen OLD vs NEW comparison Short from the user's own gameplay clips.
 
-usage: python3 compare.py OLD.mp4 NEW.mp4 OUT.mp4 "HOOK LINE / *PAYOFF*" [OLD_LABEL] [NEW_LABEL] [SECONDS]
+usage: python3 compare.py OLD.mp4 NEW.mp4 OUT.mp4 "" [OLD_LABEL] [NEW_LABEL] [SECONDS] ["PROMPT 1|PROMPT 2"]
+(set CMP_TOP=260 for a hook banner on top)
 - OLD on top, NEW below, 1080x1920, bold year labels, hook banner, fan disclaimer at the end.
 - Audio: the NEW clip's game audio (falls back to OLD, then silence).
 """
@@ -9,9 +10,10 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 W, H = 1080, 1920
-TOP = 260                 # banner area
-HALF = 820                # each clip height
-GAP = 12
+import os as _os
+TOP = int(_os.environ.get('CMP_TOP', '0'))   # 0 = no banner (example style)
+GAP = 10
+HALF = (1920 - TOP - GAP) // 2
 Y1, Y2 = TOP, TOP + HALF + GAP
 BOLD = '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf'
 LIME = (170, 255, 60); YEL = (255, 222, 40); GOLD = (255, 196, 61)
@@ -25,24 +27,27 @@ def probe(path):
 def stroke_text(d, xy, text, font, fill, sw=8):
     d.text(xy, text, font=font, fill=fill, stroke_width=sw, stroke_fill=(0, 0, 0))
 
-def overlay_png(path, hook, old_label, new_label):
+def overlay_png(path, hook, old_label, new_label, old_tag='GTA V', new_tag='GTA VI', prompts=None):
     im = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    d.rectangle((0, 0, W, TOP), fill=(8, 8, 10, 255))
+    if TOP:
+        d.rectangle((0, 0, W, TOP), fill=(8, 8, 10, 255))
+        parts = [p.strip() for p in hook.split('/')]
+        f = ImageFont.truetype(BOLD, 64); y = 50 if len(parts) > 1 else 95
+        for p in parts:
+            hl = p.startswith('*') and p.endswith('*'); p = p.strip('*'); w = d.textlength(p, font=f)
+            stroke_text(d, ((W - w) / 2, y), p, f, GOLD if hl else (255, 255, 255), 4); y += 82
     d.rectangle((0, Y1 + HALF, W, Y2), fill=(245, 245, 245, 255))
-    d.rectangle((0, Y2 + HALF, W, H), fill=(8, 8, 10, 255))
-    # hook: 'LINE ONE / *PAYOFF*' -> two lines, payoff in gold
-    parts = [p.strip() for p in hook.split('/')]
-    f = ImageFont.truetype(BOLD, 64)
-    y = 50 if len(parts) > 1 else 95
-    for i, p in enumerate(parts):
-        hl = p.startswith('*') and p.endswith('*'); p = p.strip('*')
-        w = d.textlength(p, font=f)
-        stroke_text(d, ((W - w) / 2, y), p, f, GOLD if hl else (255, 255, 255), 4)
-        y += 82
-    fl = ImageFont.truetype(BOLD, 120)
-    for lab, yy, col in ((old_label, Y1 + 30, LIME), (new_label, Y2 + 30, YEL)):
+    fl = ImageFont.truetype(BOLD, 130); ft = ImageFont.truetype(BOLD, 64)
+    for lab, tag, yy, col in ((old_label, old_tag, Y1 + 60, LIME), (new_label, new_tag, Y2 + 30, YEL)):
         w = d.textlength(lab, font=fl)
-        stroke_text(d, (W - w - 40, yy), lab, fl, col, 9)
+        stroke_text(d, (W - w - 50, yy), lab, fl, col, 10)
+        stroke_text(d, (50, yy + 20), tag, ft, (255, 255, 255), 7)   # plain text tag, no game logos
+    if prompts:   # e.g. "SLIM JIM|SMASH WINDOW": action labels on the NEW half
+        fp = ImageFont.truetype(BOLD, 46)
+        for i, p in enumerate(prompts.split('|')):
+            y = Y2 + HALF - 260 + i * 70
+            d.ellipse((300, y, 350, y + 50), outline=(255, 255, 255), width=5)
+            stroke_text(d, (370, y - 2), p.upper(), fp, (255, 255, 255), 5)
     im.save(path)
 
 def outro_png(path):
@@ -57,13 +62,13 @@ def outro_png(path):
     stroke_text(d, ((W - w) / 2, 1560), t, f2, (200, 200, 200), 2)
     im.save(path)
 
-def main(old, new, out, hook, old_label='2013', new_label='2026', seconds=None):
+def main(old, new, out, hook='', old_label='2013', new_label='2026', seconds=None, prompts=None):
     d_old, a_old = probe(old); d_new, a_new = probe(new)
     dur = min(d_old, d_new, 25.0)
     if seconds: dur = min(dur, float(seconds))
     tmp = tempfile.mkdtemp()
     ov = os.path.join(tmp, 'ov.png'); outro = os.path.join(tmp, 'outro.png')
-    overlay_png(ov, hook, old_label, new_label); outro_png(outro)
+    overlay_png(ov, hook, old_label, new_label, prompts=prompts); outro_png(outro)
     cs = f'scale={W}:{HALF}:force_original_aspect_ratio=increase,crop={W}:{HALF},setsar=1,fps=30'
     fc = (f'color=c=black:s={W}x{H}:d={dur}:r=30[bg];'
           f'[0:v]trim=0:{dur},setpts=PTS-STARTPTS,{cs}[a];'
