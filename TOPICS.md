@@ -66,3 +66,23 @@ Ideas for next run (launch week): GTA VI: The Festival Miami 21 Nov (Rockstar + 
 
 ## Performance (vidiq_user_videos, 2026-11-14 06:40 UK)
 - Still no public GTA videos (only old private marriage Shorts). Nothing scheduled yet; first GTA views to log next run.
+
+## 2026-11-15 — GTA 6 batch 3 (videos_gta_d3.py, out_2026-11-15), drafts in vidIQ awaiting approval
+At 06:35 UK: no scheduled videos, no vidIQ drafts (batches 1–2 were never published), so batch 3 took the 15 Nov slots (UTC = UK).
+vidIQ postIds: 98fc91b2 (09:00), da548a6e (12:00), 2eae4f51 (15:00), aeac22e9 (18:00), 326d8ef4 (21:00).
+I1. Countdown/timeline: 5-to-4 flip, "launch week" date cards (18 album listening parties per NME; 19 game + 34-track album; 21 GTA VI: The Festival Miami, Rockstar + PlayStation) — "GTA 6 in 4 Days: Launch Week Is Bigger Than You Think" — debate "festival in Miami or sofa at home?"
+I2. Skit: opens physical box, no disc (code in box, Rockstar), wants to return it, twist: his console is digital edition with no disc drive — "He Opened His GTA 6 Box. There Was No Disc."
+I3. "Which fan are you?" GTA 6 week (spoiler dodger, review reader, day counter, hype machine, #5 the backlog guy with 142 unplayed games) — "GTA 6 Week: Which Fan Are You? (#5 Is Too Real)"
+I4. Fact or rumour (album 34 tracks CONFIRMED; reviews 18 Nov RUMOUR/insider; Miami festival CONFIRMED; PC at launch RUMOUR, not announced) — "GTA 6 Launch Week: Fact or Rumour? #2 Fools Everyone"
+I5. Office skit: asks boss for 19 Nov off, boss says no, twist: boss booked that day off months ago; gives him the 20th — "He Asked for GTA 6 Day Off. The Boss Said No."
+Do not repeat next run: no-disc/code-in-box, festival, album/listening parties, review-embargo rumour, PC rumour, boss/day-off skit, fan-type list above.
+Sources: Rockstar Newswire (19 Nov 2026); physical = code in box: videogameschronicle.com/news/rockstar-confirms-there-will-be-no-disc-version-of-gta6-at-launch/ ;
+album (Rockstar, Sept 2026, 34 tracks, 19 Nov): gematsu.com/2026/09/grand-theft-auto-vi-the-album-announced , keengamer.com (34 original tracks) ;
+listening events 18 Nov: nme.com/news/gaming-news/grand-theft-auto-6-the-album-early-listen-record-store-locations-3975789 ;
+festival 21 Nov Miami (Mana Wynwood, Rockstar + PlayStation): gamesradar.com (9 Nov), pushsquare.com/news/2026/11/gta-6-the-festival-is-a-one-off-live-music-event-partly-presented-by-playstation , shacknews.com/article/151303/gta-6-concert-miami ;
+review embargo 18 Nov = insider NateTheHate (x.com/NateTheHate2), beebom/notebookcheck reporting — NOT Rockstar.
+Unverified, avoided: "Macca & Friends" in-game cartoon (teaser via DiscussingFilm 13 Nov; gamenewsplus.net) — verify before using.
+Ideas next run: launch day (19 Nov) reactions skits, review scores once embargo lifts (only real published scores), festival recap 21–22 Nov.
+
+## Performance (vidiq_user_videos, 2026-11-15 06:35 UK)
+- Still no public GTA videos (11 old marriage Shorts, all private). GTA batches 1–2 were never approved/published. First GTA views to log after batch 3 goes live.
