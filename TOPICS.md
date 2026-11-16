@@ -86,3 +86,22 @@ Ideas next run: launch day (19 Nov) reactions skits, review scores once embargo 
 
 ## Performance (vidiq_user_videos, 2026-11-15 06:35 UK)
 - Still no public GTA videos (11 old marriage Shorts, all private). GTA batches 1–2 were never approved/published. First GTA views to log after batch 3 goes live.
+
+## 2026-11-16 — GTA 6 batch 4 (videos_gta_d4.py, out_2026-11-16), drafts in vidIQ awaiting approval
+At 06:35 UK: no scheduled videos and no vidIQ drafts (batches 1–3 never published), so batch 4 took the 16 Nov slots (UTC = UK).
+vidIQ postIds: e7d2e993 (09:00), e8928ced (12:00), 151ab33c (15:00), 521aef0e (18:00), a84410c9 (21:00).
+J1. Countdown, 4-to-3 flip, "3 numbers": 19 (Thursday launch, Rockstar), 2 (PS5 + Xbox Series X|S), $1B pre-sales = NOT CONFIRMED stamp (Take-Two only said "far above expectations") — "GTA 6 in 3 Days: 3 Numbers (#3 Isn't Confirmed)" — debate "Will GTA 6 win Game of the Year?"
+J2. Skit: launch-day "spoiler" phone call, he hangs up and blocks everyone; twist: it was his gran, stuck in the menu, she bought GTA 6 to play with him — "He Hung Up on a GTA 6 Spoiler. Big Mistake." — debate "Who is watching you play first?"
+J3. "Which gamer are you?" first hour (skipper, settings guy, wanderer, narrator/LIVE, #5 menu sitter 45 min on title screen) — "GTA 6 First Hour: Which Gamer Are You?"
+J4. Fact or rumour (Take-Two pre-orders far above expectations CONFIRMED; 90% Ultimate Edition RUMOUR; Game of the Year eligible CONFIRMED, TGA cut-off 20 Nov; GTA Online for GTA 6 early 2027 RUMOUR) — "GTA 6 Pre-Orders: Fact or Rumour? #2 Sounds Real"
+J5. Couple skit: he asks to play all launch night, she says no; twist: because she is playing first (own controller), two hours each — "He Wanted GTA 6 All Night. She Said No."
+Do not repeat next run: $1B pre-sales, Take-Two "far above expectations", 90% Ultimate, Game Awards eligibility, GTA Online 2027 rumour, spoiler-call/gran skit, first-hour gamer types, couple-takes-turns skit.
+Sources: Rockstar Newswire (19 Nov, PS5 + Xbox Series X|S): rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10 ;
+Take-Two Q2 FY27 (9 Nov) "Pre-orders ... tracking far above our initial expectations": shacknews.com/article/151308/grand-theft-auto-6-pre-orders-q2-fy27 ;
+TGA cut-off Fri 20 Nov (per TGA criteria): gamesradar.com/games/grand-theft-auto/gta-6-will-be-eligible-for-2026-goty-at-the-game-awards-but-rockstar-is-barely-beating-the-buzzer/ ;
+$1B figure = analyst estimates / reports (techradar, insider-gaming, tech4gamers "analyst firm says nowhere near $1B") — no Take-Two number ;
+90% Ultimate = earlier unverified report (linked from Shacknews) ; GTA Online Q1 2027 = reports only (shattered.io "0 Rockstar dates").
+Ideas next run (17 Nov, 2 days): launch-eve skits; from 19 Nov launch-day reactions; real review scores only once published.
+
+## Performance (vidiq_user_videos, 2026-11-16 06:35 UK)
+- Still no public GTA videos: channel lists only the 11 old marriage Shorts (all private) and nothing scheduled. GTA batches 1–3 were never approved/published, so there are no GTA view counts yet.
