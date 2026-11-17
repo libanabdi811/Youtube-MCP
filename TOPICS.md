@@ -105,3 +105,22 @@ Ideas next run (17 Nov, 2 days): launch-eve skits; from 19 Nov launch-day reacti
 
 ## Performance (vidiq_user_videos, 2026-11-16 06:35 UK)
 - Still no public GTA videos: channel lists only the 11 old marriage Shorts (all private) and nothing scheduled. GTA batches 1–3 were never approved/published, so there are no GTA view counts yet.
+
+## 2026-11-17 — GTA 6 batch 5 (videos_gta_d5.py, out_2026-11-17), drafts in vidIQ awaiting approval
+At 06:35 UK: no scheduled videos and no vidIQ drafts (batches 1–4 never published), so batch 5 took the 17 Nov slots (UTC = UK).
+vidIQ postIds: 2bfd5cd4 (09:00), b222392e (12:00), cbabe7e3 (15:00), 88510a5b (18:00), 32d7d553 (21:00).
+K1. Countdown 72-to-48 hours, "what's real" cards (Thu 19 Nov PS5 + Series X|S; launch trailer already out, Rockstar; CNN 16 Nov "biggest entertainment event of the year"), twist "48 hours is 2,880 minutes" — "GTA 6 in 48 Hours: Here's What's Actually Real" — debate "first thing you'll do in GTA 6?"
+K2. Skit: launch night, TV remote dead ("who took the batteries?!"), twist: dad presses the button on the TV — "Ready for GTA 6 for Months. Then the Remote Died." — debate "what almost ruined YOUR launch night? wrong answers only"
+K3. "Which gamer are you?" 2 days before (refresher, trailer rewatcher, planner, "not hyped", #5 the one who forgot it's THIS Thursday) — "2 Days Before GTA 6: Which Gamer Are You?"
+K4. Myths checked (PS4 NOT ANNOUNCED; launch trailer out TRUE; Switch 2 NOT ANNOUNCED; Thursday launch TRUE) — "GTA 6 in 2 Days: 4 Myths Checked (#2 Is True)"
+K5. Bedroom skit: naps to skip time, wakes "IS IT THURSDAY?!", it's Tuesday 2:31 PM (20 min); flatmate "help me move my sofa", he goes back to sleep — "He Slept to Skip to GTA 6. It Didn't Work."
+Do not repeat next run: 48-hours/CNN card, dead-remote/TV-button skit, refresher/rewatcher/planner/forgot types, PS4 + Switch 2 myths, nap skit.
+Sources: Rockstar Newswire (19 Nov, PS5 + Xbox Series X|S); launch trailer: videogameschronicle.com/news/rockstar-has-revealed-the-official-launch-trailer-for-grand-theft-auto-6/ ,
+ghacks.net/2026/10/16/rockstar-releases-the-gta-6-launch-trailer-ahead-of-the-november-19-console-release/ ; CNN 16 Nov 2026:
+cnn.com/2026/11/16/media/grand-theft-auto-gta-vi-entertainment-media ; unlock time still NOT Rockstar-confirmed (games.gg "likely midnight, Rockstar hasn't said";
+Forbes 12 Nov reports midnight local) — avoided stating. The Game Awards nominees reported to be revealed 17 Nov (Insider Gaming, Softonic) — avoided
+because results weren't known at render time; check next run whether GTA 6 was nominated (only state real results).
+Ideas next run (18 Nov, 1 day / launch eve): launch-eve skits, real TGA nomination result, then 19 Nov launch-day reactions; real review scores only once published.
+
+## Performance (vidiq_user_videos, 2026-11-17 06:35 UK)
+- Still no public GTA videos: channel lists only the 11 old marriage Shorts (all private) and nothing scheduled. GTA batches 1–4 were never approved/published, so there are no GTA view counts yet.
