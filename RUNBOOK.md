@@ -72,3 +72,8 @@ When the user attaches their own GTA 5 / GTA 6 gameplay clips, build split-scree
 (OLD on top, NEW below, year labels, hook banner, "Which one looks better?" + fan disclaimer at the end).
 Shot list to match pairs: car-jacking, police chase, swimming/diving, entering a shop, night city drive, crash/ragdoll.
 Never use footage that isn't the user's own recording (no trailers, no other creators' clips).
+
+## Reaction format (facecam top, gameplay bottom) — user's OWN recordings only
+`python3 react.py FACE.mp4 GAME.mp4 OUT.mp4 "CAPTION" [SECONDS] [FACE_START] [GAME_START] [CAPTION_SECONDS]`
+Facecam fills the top 760 px, gameplay the rest, white caption box across the join for the first 4 s
+(e.g. "DRIVING A PLANE IN GTA 6 IS INSANE"). Voice from the facecam is mixed over the game audio.
