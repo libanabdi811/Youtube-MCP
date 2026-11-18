@@ -124,3 +124,22 @@ Ideas next run (18 Nov, 1 day / launch eve): launch-eve skits, real TGA nominati
 
 ## Performance (vidiq_user_videos, 2026-11-17 06:35 UK)
 - Still no public GTA videos: channel lists only the 11 old marriage Shorts (all private) and nothing scheduled. GTA batches 1–4 were never approved/published, so there are no GTA view counts yet.
+
+## 2026-11-18 — GTA 6 batch 6 (videos_gta_d6.py, out_2026-11-18), launch eve, drafts in vidIQ awaiting approval
+At 06:35 UK: no scheduled videos (batches 1–5 never published), so batch 6 took the 18 Nov slots (UTC = UK).
+vidIQ postIds: d6be661e (09:00), 85a184f3 (12:00), 6249be12 (15:00), b15bb0d8 (18:00), 84f15084 (21:00).
+M1. Countdown 2-to-1 flip + trophy, "The Game Awards 2026" cards (8 nominations, most of any game; GOTY, 1 of 6 nominees; show 10 Dec) — "GTA 6 Isn't Out Yet. It's Already Up for GOTY." — debate "should a game be nominated before it's out? YES/NO"
+M2. Bedroom skit: he cleaned his room, mum thinks it's a date, "...GTA 6, MUM", twist: she makes him clean the kitchen "for your date" — "He Cleaned His Room for GTA 6. Mum Got Suspicious." — debate "your launch-night prep ritual?"
+M3. "Which gamer are you?" launch eve (charger, early sleeper, group chat 900+, vibe setter, #5 "I'll wait for reviews" playing day 1 minute 1) — "GTA 6 Is Tomorrow: Which Gamer Are You?"
+M4. Claims checked (Metacritic score = USER SCORE ONLY; 6.5 means bad = MISLEADING, 5 ratings pre-release; Best Score and Music nomination TRUE; launch tomorrow TRUE) — "GTA 6 Already Has a Score? 4 Claims Checked" — debate "day one or wait for real reviews?"
+M5. Sofa skit: "Dad, you wouldn't get GTA 6", dad: "I played the first one", 1997 reveal, "Player 2, Dad?" — "He Said Dad Wouldn't Get GTA 6. Then Dad Spoke." — debate "who got YOU into gaming?"
+Do not repeat next run: TGA nominations/GOTY nominee, pre-release user score / review-bombing, clean-room/mum skit, dad-1997 skit, eve gamer types above.
+Sources: Rockstar Newswire (19 Nov, PS5 + Xbox Series X|S); TGA 2026 nominations 17 Nov (8, most nominated, GOTY, Best Score and Music, show 10 Dec):
+videogameschronicle.com/news/the-game-awards-2026-nominations/ , pushsquare.com/news/2026/11/the-game-awards-2026-nominees-revealed-gta-6-up-for-8-awards ,
+variety.com/2026/awards/news/game-awards-nominations-2026-list-1236949480/ ; pre-release user score 6.5 from 5 ratings (16 Nov):
+mensjournal.com/entertainment/gta-6-debuts-to-a-shockingly-mixed-reception-on-metacritic ; first GTA 1997: en.wikipedia.org/wiki/Grand_Theft_Auto_(video_game) , timeextension.com (GTA turns 25, 2022).
+Avoided: review embargo 18 Nov (still insider reports only; could go stale mid-day), unlock time (Forbes cites Rockstar support "midnight local time" but not verified verbatim), Lucia actor/cast.
+Ideas next run (19 Nov = LAUNCH DAY): launch-day reaction skits; real critic scores ONLY if published (check Metacritic/OpenCritic via news); TGA show 10 Dec.
+
+## Performance (vidiq_user_videos, 2026-11-18 06:35 UK)
+- Still no public GTA videos: channel lists only the 11 old marriage Shorts (all private) and nothing scheduled. GTA batches 1–5 were never approved/published, so there are no GTA view counts yet.
