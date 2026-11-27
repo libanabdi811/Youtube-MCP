@@ -19,7 +19,7 @@
 - POSTED 2026-11-27 ~11:20 UK: https://www.youtube.com/watch?v=TSJXgGXX63E (video ID TSJXgGXX63E, v/2026-11-27_quiz_am_who_am_i_2.mp4).
 
 ## 2026-11-27 PM — "Can You Name These 8 GTA Games? 🎮 #GTA #Shorts" (re-cut of the AM which-game quiz with v2 timing, 54 s)
-- Config quiz/2026-11-27_pm_which_game_v2.json (shorter clues). Drafted in vidIQ for 18:00 UK, awaiting owner's yes.
+- Config quiz/2026-11-27_pm_which_game_v2.json (shorter clues). POSTED (scheduled public at 18:00 UK): https://www.youtube.com/watch?v=PtSGW_AYH6M (video ID PtSGW_AYH6M, v/2026-11-27_quiz_which_game_v2.mp4).
   Not a new question set: same 8 games as the AM which-game draft, which will not be posted separately.
 
 ## Performance
