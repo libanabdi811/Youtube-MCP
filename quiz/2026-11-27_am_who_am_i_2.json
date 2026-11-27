@@ -1,0 +1,18 @@
+{
+ "title": "GTA QUIZ",
+ "card": "WHO AM I?",
+ "background": "bg_vice_sunset.png",
+ "intro": "Name all 8. Most fans fail at 6.",
+ "outro": "Comment your score!",
+ "voice": "am_michael", "speed": 1.25, "think": 0.9, "reveal": 1.0, "seed": 7319, "bpm": 112, "music_volume": 0.5,
+ "questions": [
+  {"answer": "Franklin", "clues": ["GTA 5 hero", "Repo man", "Owns Chop"]},
+  {"answer": "Jason", "clues": ["GTA 6 hero", "Ex-Army", "Lucia's partner"]},
+  {"answer": "Big Smoke", "clues": ["Grove Street", "Betrays CJ", "Two number nines"]},
+  {"answer": "Roman", "clues": ["Taxi business", "Loves bowling", "Niko's cousin"]},
+  {"answer": "Lance Vance", "clues": ["Vice City", "Betrays Tommy", "Dead brother Vic"]},
+  {"answer": "Catalina", "clues": ["Shot Claude", "San Andreas too", "Cesar's cousin"]},
+  {"answer": "Ken Rosenberg", "clues": ["Nervous wreck", "Vice City", "Tommy's lawyer"]},
+  {"answer": "Toni Cipriani", "clues": ["Leone family", "Loves his mama", "Liberty City Stories"]}
+ ]
+}
