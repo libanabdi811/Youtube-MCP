@@ -1,0 +1,77 @@
+{
+ "title": "GTA QUIZ",
+ "background": "bg_vice_sunset.png",
+ "intro": "Only real GTA fans can name all eight characters from three clues. Let's go!",
+ "outro": "How many did you get right? Comment your score below!",
+ "voice": "am_michael",
+ "think": 1.5,
+ "questions": [
+  {
+   "answer": "Lucia",
+   "clues": [
+    "GTA 6 hero",
+    "Starts in prison",
+    "Jason's partner"
+   ]
+  },
+  {
+   "answer": "CJ",
+   "clues": [
+    "Grove Street",
+    "Back in Los Santos",
+    "Brother of Sweet"
+   ]
+  },
+  {
+   "answer": "Trevor",
+   "clues": [
+    "Ex military pilot",
+    "Sandy Shores",
+    "Very unstable"
+   ]
+  },
+  {
+   "answer": "Michael",
+   "clues": [
+    "Retired bank robber",
+    "Witness protection",
+    "Wife Amanda"
+   ]
+  },
+  {
+   "answer": "Tommy Vercetti",
+   "clues": [
+    "Vice City, 1986",
+    "15 years in prison",
+    "Owns Malibu Club"
+   ]
+  },
+  {
+   "answer": "Niko Bellic",
+   "clues": [
+    "Arrived by boat",
+    "Cousin Roman",
+    "Loves... bowling?"
+   ]
+  },
+  {
+   "answer": "Lester",
+   "clues": [
+    "Heist planner",
+    "Genius hacker",
+    "Never leaves home"
+   ]
+  },
+  {
+   "answer": "Claude",
+   "clues": [
+    "GTA 3 hero",
+    "Never speaks",
+    "Betrayed by Catalina"
+   ]
+  }
+ ],
+ "speed": 1.2,
+ "reveal": 1.5,
+ "music_volume": 0.5
+}
