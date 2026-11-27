@@ -22,7 +22,17 @@
 - Config quiz/2026-11-27_pm_which_game_v2.json (shorter clues). POSTED (scheduled public at 18:00 UK): https://www.youtube.com/watch?v=PtSGW_AYH6M (video ID PtSGW_AYH6M, v/2026-11-27_quiz_which_game_v2.mp4).
   Not a new question set: same 8 games as the AM which-game draft, which will not be posted separately.
 
+## 2026-11-27 PM (scheduled run) — "Can You Name These 8 GTA Characters? 🤯 #GTA #Shorts" — POSTED
+- Topic: Who am I? part 3 (card "WHO AM I?"), v2 timing, 50.8 s, background bg/neon_ocean_drive.jpg (rotated off vice_sunset). Config: quiz/2026-11-27_pm_who_am_i_3.json, seed 9184, bpm 116.
+- Answers: Lamar, Sweet, Brucie, Johnny Klebitz, Boobie Ike, Victor Vance, Huang Lee, Zero.
+- Improvements tried: back to the characters format (best vph); harder 6–8 (VCS, Chinatown Wars, SA side character Zero) so fewer get 8/8;
+  one GTA 6 side character (Boobie Ike, checked with WebSearch); outro asks for answers ("Comment your answers!"); new background.
+- Reviewer agent: PASS first time.
+- POSTED 2026-11-27 ~19:50 UK: https://www.youtube.com/watch?v=yULEZZz_Y-g (video ID yULEZZz_Y-g, v/2026-11-27_quiz_pm_who_am_i_3.mp4).
+
 ## Performance
 - 2026-11-27 09:52 UK, aa9bZOmfP9I (68 s Who am I?): 431 views, 7 likes, 0 dislikes ~3 h after posting (~140 views/h, 1.6 likes per 100 views).
 - 2026-11-27 10:50 UK: performance check could not run (returnyoutubedislikeapi.com fetch blocked by a permission prompt nobody answered). Used last numbers: characters format = best so far, so repeated it with a new set.
 - 2026-11-27 17:00 UK (vidIQ): aa9bZOmfP9I 650 views / 7 likes / 0 comments / 65 vph (68 s); TSJXgGXX63E 540 views / 10 likes / 1 comment / 270 vph (50 s, v2). v2 wins clearly.
+- 2026-11-27 19:45 UK (vidIQ): aa9bZOmfP9I 650 views / 7 likes / 0 comments / 50 vph (13 h); TSJXgGXX63E 923 views / 16 likes / 2 comments / 185 vph (5.7 h, 1.7 likes/100);
+  PtSGW_AYH6M (which-game, 55 s) 20 views / 0 likes / 0 comments / 20 vph (1.7 h) — weak start. Characters format with 50 s wins; game-guess format paused.

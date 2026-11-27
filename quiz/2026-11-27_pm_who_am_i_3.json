@@ -1,0 +1,18 @@
+{
+ "title": "GTA QUIZ",
+ "card": "WHO AM I?",
+ "background": "bg/neon_ocean_drive.jpg",
+ "intro": "Name all 8. Number 8 is hopeless.",
+ "outro": "Comment your answers!",
+ "voice": "am_michael", "speed": 1.25, "think": 0.9, "reveal": 1.0, "seed": 9184, "bpm": 116, "music_volume": 0.5,
+ "questions": [
+  {"answer": "Lamar", "clues": ["GTA 5", "Roast meme", "Franklin's homie"]},
+  {"answer": "Sweet", "clues": ["Grove Street boss", "Kendl's brother", "CJ's big brother"]},
+  {"answer": "Brucie", "clues": ["GTA 4", "Loves steroids", "Alpha male bro"]},
+  {"answer": "Johnny Klebitz", "clues": ["Biker gang", "Killed by Trevor", "Lost and Damned"]},
+  {"answer": "Boobie Ike", "clues": ["GTA 6", "Strip club owner", "Only Raw Records"]},
+  {"answer": "Victor Vance", "clues": ["Ex-Army", "Lance's brother", "Vice City Stories"]},
+  {"answer": "Huang Lee", "clues": ["Liberty City", "Stolen sword", "Chinatown Wars"]},
+  {"answer": "Zero", "clues": ["San Andreas", "RC toy shop", "Hates Berkley"]}
+ ]
+}
