@@ -67,9 +67,20 @@ guess the vehicle/weapon type from clues, GTA 6 facts (only things Rockstar or m
 - Hooks: punchy and honest ("Only 1% of GTA fans get all 8", "Name all 8 GTA characters from 3 clues"), no fake claims.
 - YouTube text: title at most 55 characters with "GTA" in it, no < or >. Description ends with:
   "Fan channel. Not affiliated with or endorsed by Rockstar Games or Take-Two Interactive."
-- Never publish without the owner replying "yes" in that session.
+- AUTOPILOT (owner's instruction, 27 Nov 2026 17:20): the scheduled runs publish on their own, WITHOUT waiting for a yes,
+  but only after the independent Reviewer agent passes the video (see "Team" below). At most one quiz per run, two per day.
+  If the Reviewer still fails it after one fix, do NOT post: tell the owner what is wrong.
 
-## Upload (only after the owner says yes)
+## Team (each scheduled run)
+- Lead (the run itself): performance check, picks the topic, writes the config, renders, uploads, records history.
+- Reviewer: a SEPARATE agent (Agent tool, general-purpose) that has not seen the writing. Give it the config JSON path, the MP4 path,
+  the proposed title/description and this runbook. It must: check every clue and answer is true (WebSearch anything about GTA 6 or
+  anything uncertain), check no clue gives away its answer, check the difficulty order, view stills from at least 5 moments
+  (ffmpeg -ss T -frames:v 1) for cut-off or overlapping text, confirm 1080x1920, audio, 45–52 s, and title rules
+  (max 55 chars, has GTA, no < or >, disclaimer in description). It replies PASS or a list of exact fixes.
+- Lead applies the fixes, re-renders, and asks the Reviewer once more. Post only on PASS.
+
+## Upload
 1. Push the MP4 to branch `videos`, folder `v/`, date prefix (e.g. `v/2026-11-27_quiz_am.mp4`).
 2. vidiq_video_upload with url `https://raw.githubusercontent.com/libanabdi811/Youtube-MCP/videos/v/FILE.mp4` (free).
 3. vidiq_social_post_draft_create: YOUTUBE, platformAccountId UC_scPJ-PYyQgFKOgkjACULw, privacyStatus public, categoryId 20,
