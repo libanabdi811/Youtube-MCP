@@ -50,7 +50,7 @@ def cover(im, w, h):
     im = im.resize((int(im.width * r + 1), int(im.height * r + 1)), Image.LANCZOS)
     x, y = (im.width - w) // 2, (im.height - h) // 2
     return im.crop((x, y, x + w, y + h))
-bg = cover(Image.open(os.path.join(HERE, cfg.get("background", "bg_vice_sunset.png"))).convert("RGB"), W, H)
+bg = cover(Image.open(os.path.join(HERE, cfg.get("background", "bg/vice_sunset_classic_car.png"))).convert("RGB"), W, H)
 bg = ImageEnhance.Color(bg).enhance(1.15)
 
 LEVELS = [("EASY:", (60, 230, 60), [0, 1, 2]), ("MEDIUM:", (245, 235, 30), [3, 4]),

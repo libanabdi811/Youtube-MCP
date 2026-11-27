@@ -1,7 +1,7 @@
 {
  "title": "GTA QUIZ",
  "card": "WHICH GAME?",
- "background": "bg_vice_sunset.png",
+ "background": "bg/vice_sunset_classic_car.png",
  "intro": "Name all eight GTA games from just three clues. Number eight breaks everyone!",
  "outro": "How many did you get right? Comment your score below!",
  "voice": "am_michael", "speed": 1.2, "think": 1.25, "reveal": 1.4, "seed": 42, "bpm": 118, "music_volume": 0.5,

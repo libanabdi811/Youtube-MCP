@@ -1,7 +1,7 @@
 {
  "title": "GTA QUIZ",
  "card": "WHICH GAME?",
- "background": "bg_vice_sunset.png",
+ "background": "bg/vice_sunset_classic_car.png",
  "intro": "Name all 8 GTA games. Number 8 breaks everyone!",
  "outro": "Comment your score!",
  "voice": "am_michael",

@@ -1,7 +1,9 @@
 # GTA quiz Shorts (Leonida Unlocked)
 
 The format the owner approved on 27 Nov 2026, copied from viral "guess the character" quiz Shorts:
-- Background: `bg_vice_sunset.png` (the owner's own image). A red "GTA QUIZ" title pill at the top.
+- Background: one of the owner's images in `quiz/bg/` (set `"background": "bg/FILE"` in the config). ROTATE them: never use the
+  same background as the previous posted quiz (check HISTORY.md) and record which one you used. Current set: vice_sunset_classic_car.png,
+  neon_ocean_drive.jpg, beach_strip_police.jpg, neon_motel_red_car.jpg. Only add images the owner sends; never Rockstar screenshots or art. A red "GTA QUIZ" title pill at the top.
 - A numbered list down the left: EASY 1-3, MEDIUM 4-5, IMPOSSIBLE 6-7, HOPELESS 8, in the Luckiest Guy comic font.
 - Intro: an AI voice (Kokoro, voice am_michael) reads the hook while ONE big word at a time shows under the title.
 - Each question: a "WHO AM I?" card with 3 short clues that pop in as the voice reads them, while a striped timer bar

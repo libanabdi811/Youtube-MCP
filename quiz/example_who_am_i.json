@@ -1,6 +1,6 @@
 {
  "title": "GTA QUIZ",
- "background": "bg_vice_sunset.png",
+ "background": "bg/vice_sunset_classic_car.png",
  "intro": "Only real GTA fans can name all eight characters from three clues. Let's go!",
  "outro": "How many did you get right? Comment your score below!",
  "voice": "am_michael",
