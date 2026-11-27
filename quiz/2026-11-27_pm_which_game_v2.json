@@ -1,0 +1,80 @@
+{
+ "title": "GTA QUIZ",
+ "card": "WHICH GAME?",
+ "background": "bg_vice_sunset.png",
+ "intro": "Name all 8 GTA games. Number 8 breaks everyone!",
+ "outro": "Comment your score!",
+ "voice": "am_michael",
+ "speed": 1.25,
+ "think": 0.9,
+ "reveal": 1.0,
+ "seed": 4242,
+ "bpm": 118,
+ "music_volume": 0.5,
+ "questions": [
+  {
+   "answer": "GTA 6",
+   "clues": [
+    "Leonida",
+    "Jason and Lucia",
+    "Out 2026"
+   ]
+  },
+  {
+   "answer": "GTA 5",
+   "clues": [
+    "Three heroes",
+    "Los Santos",
+    "Out 2013"
+   ]
+  },
+  {
+   "answer": "San Andreas",
+   "clues": [
+    "Carl Johnson",
+    "Three cities",
+    "Out 2004"
+   ]
+  },
+  {
+   "answer": "Vice City",
+   "clues": [
+    "Year 1986",
+    "Tommy Vercetti",
+    "Neon Miami"
+   ]
+  },
+  {
+   "answer": "GTA 4",
+   "clues": [
+    "Niko Bellic",
+    "Liberty City",
+    "Out 2008"
+   ]
+  },
+  {
+   "answer": "GTA 3",
+   "clues": [
+    "First 3D GTA",
+    "Silent Claude",
+    "Out 2001"
+   ]
+  },
+  {
+   "answer": "Chinatown Wars",
+   "clues": [
+    "Huang Lee",
+    "Nintendo DS",
+    "Out 2009"
+   ]
+  },
+  {
+   "answer": "London 1969",
+   "clues": [
+    "First add-on",
+    "Swinging Sixties",
+    "Out 1999"
+   ]
+  }
+ ]
+}

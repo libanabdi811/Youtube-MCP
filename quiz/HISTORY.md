@@ -18,6 +18,11 @@
 - Jason facts (GTA 6 lead, ex-Army, Lucia's partner) checked with WebSearch.
 - POSTED 2026-11-27 ~11:20 UK: https://www.youtube.com/watch?v=TSJXgGXX63E (video ID TSJXgGXX63E, v/2026-11-27_quiz_am_who_am_i_2.mp4).
 
+## 2026-11-27 PM — "Can You Name These 8 GTA Games? 🎮 #GTA #Shorts" (re-cut of the AM which-game quiz with v2 timing, 54 s)
+- Config quiz/2026-11-27_pm_which_game_v2.json (shorter clues). Drafted in vidIQ for 18:00 UK, awaiting owner's yes.
+  Not a new question set: same 8 games as the AM which-game draft, which will not be posted separately.
+
 ## Performance
 - 2026-11-27 09:52 UK, aa9bZOmfP9I (68 s Who am I?): 431 views, 7 likes, 0 dislikes ~3 h after posting (~140 views/h, 1.6 likes per 100 views).
 - 2026-11-27 10:50 UK: performance check could not run (returnyoutubedislikeapi.com fetch blocked by a permission prompt nobody answered). Used last numbers: characters format = best so far, so repeated it with a new set.
+- 2026-11-27 17:00 UK (vidIQ): aa9bZOmfP9I 650 views / 7 likes / 0 comments / 65 vph (68 s); TSJXgGXX63E 540 views / 10 likes / 1 comment / 270 vph (50 s, v2). v2 wins clearly.

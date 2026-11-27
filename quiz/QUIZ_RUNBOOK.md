@@ -36,13 +36,25 @@ The Kokoro model downloads from huggingface.co on first use. A render takes abou
   but vary the wording and the topic noun (games, cities, cars, GTA 6 facts...).
 - Keep one format family (GTA quizzes) so YouTube learns who to show the channel to.
 
-## Performance check (free, do this first every run)
+## v3 lessons (27 Nov 17:00, vidIQ data)
+- 68 s Who am I? (aa9bZOmfP9I): 650 views in ~10 h, now 65 views/hour, 7 likes, 0 comments, 1.1% engagement.
+- 50 s Who am I? part 2 with v2 timing (TSJXgGXX63E): 540 views in 3 h, 270 views/hour, 10 likes, 1 comment, 2.0% engagement.
+  => v2 (shorter, faster) is about 4x the views per hour and 2x the engagement. Keep 45–52 s; never go back to 60+.
+- The only comment listed all 8 answers with "I think" on the hard ones, so HOPELESS was too easy. Make 7–8 genuinely obscure but fair
+  (side characters, spin-off games, small details) so fewer people get 8/8 and more argue in the comments.
+- Ask for answers, not just a score: description line "Pause and comment your answers 👇 then check if you were right!"
+  Spoken intro can end with "Pause and comment your answers!" when it stays under ~3 s.
+- Titles: question form "Can You Name All 8 GTA ...? 🤯 #GTA #Shorts" did best so far.
+- The owner replies to comments; keep doing that (it boosts the video).
+
+## Performance check (do this first every run)
 For every POSTED video in HISTORY.md from the last 3 days, WebFetch
 `https://returnyoutubedislikeapi.com/votes?videoId=VIDEO_ID` (viewCount, likes, dislikes; free, no vidIQ credits).
 Write the numbers and the hours since posting into HISTORY.md. Compare views per hour and likes per 100 views between videos;
 reuse the topic type, title style and length of the best one, and change what the weakest one did.
-Do NOT use vidIQ stats tools (vidiq_video_stats, vidiq_get_videos_by_ids, vidiq_video_comments, vidiq_user_videos):
-they cost 5 credits each and the account has about 1 left until 18 Dec.
+If vidiq_balance (free) shows at least 10 credits, instead make ONE vidiq_get_videos_by_ids call with ALL quiz video IDs from the
+last 3 days (5 credits total; gives views, likes, comments, views per hour, engagement) — it is more accurate than the free API,
+which can be hours out of date. Never call vidiq_video_stats, vidiq_video_comments or vidiq_user_videos from a scheduled run.
 
 ## Topic ideas (rotate, never repeat a question set; check HISTORY.md)
 Who am I? (characters from any GTA game), guess the GTA game from 3 clues, guess the city, guess the year,
