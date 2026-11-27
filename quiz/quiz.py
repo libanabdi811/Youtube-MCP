@@ -98,7 +98,7 @@ def clue_card(qi, tl, timer):
     d.rounded_rectangle([0, 0, CW - 1, CH - 1], radius=44, fill=(255, 255, 255, 255))
     d.rounded_rectangle([8, 8, CW - 9, CH - 9], radius=38, fill=(18, 10, 40, 235))
     d.rounded_rectangle([8, 8, CW - 9, 140], radius=38, fill=(240, 20, 85, 255)); d.rectangle([8, 100, CW - 9, 140], fill=(240, 20, 85, 255))
-    txt(d, "WHO AM I?", (CW // 2, 78), 70, (255, 255, 255), 6, "mm")
+    txt(d, cfg.get("card", "WHO AM I?"), (CW // 2, 78), 70, (255, 255, 255), 6, "mm")
     n = len(q["clues"]); span = max(timer - cfg.get("think", 2.0), 0.5)
     y = 200; f = F(60)
     for k, cl in enumerate(q["clues"]):
@@ -121,14 +121,16 @@ def base_frame(t, revealed_upto, partial=None):
     txt(d, title, (W // 2, 192), 96, (255, 255, 255), 8, "mm")
     return im, d
 
-def draw_list(d, revealed_upto, partial=None):
+def draw_list(d, revealed_upto, partial=None, max_w=None):
     for kind, a, col, yy in rows:
         if kind == "lvl": txt(d, a, (45, yy), 84, col, 8)
         else:
             s = f"{a + 1})-"
             if a < revealed_upto: s += " " + Qs[a]["answer"]
             elif partial is not None and a == partial[0]: s += " " + Qs[a]["answer"][:partial[1]]
-            txt(d, s, (70, yy), 76, (255, 255, 255), 8)
+            fs = 76
+            while max_w and fs > 40 and F(fs).getlength(s) > max_w: fs -= 2
+            txt(d, s, (70, yy + (76 - fs) // 2), fs, (255, 255, 255), 8)
 
 def bar(d, frac, t):
     x0, x1, y0, y1 = 220, W - 220, 300, 352
@@ -176,7 +178,7 @@ def render(fi):
     c = c.resize((max(1, int(c.width * s)), max(1, int(c.height * s))))
     cx, cy = 790, 1000
     im.alpha_composite(c, (cx - c.width // 2, cy - c.height // 2))
-    d = ImageDraw.Draw(im); draw_list(d, lst[0], lst[1])
+    d = ImageDraw.Draw(im); draw_list(d, lst[0], lst[1], max_w=cx - c.width // 2 - 85)
     return im.convert("RGB")
 
 # ---------- video ----------

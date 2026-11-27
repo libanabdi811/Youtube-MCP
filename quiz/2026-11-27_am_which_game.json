@@ -1,0 +1,18 @@
+{
+ "title": "GTA QUIZ",
+ "card": "WHICH GAME?",
+ "background": "bg_vice_sunset.png",
+ "intro": "Name all eight GTA games from just three clues. Number eight breaks everyone!",
+ "outro": "How many did you get right? Comment your score below!",
+ "voice": "am_michael", "speed": 1.2, "think": 1.25, "reveal": 1.4, "seed": 42, "bpm": 118, "music_volume": 0.5,
+ "questions": [
+  {"answer": "GTA 6", "clues": ["Set in Leonida", "Jason and Lucia", "Out November 2026"]},
+  {"answer": "GTA 5", "clues": ["Three playable leads", "Los Santos", "Released 2013"]},
+  {"answer": "San Andreas", "clues": ["Carl Johnson", "Three big cities", "Released 2004"]},
+  {"answer": "Vice City", "clues": ["Set in 1986", "Tommy Vercetti", "Neon Miami vibes"]},
+  {"answer": "GTA 4", "clues": ["Niko Bellic", "Liberty City", "Released 2008"]},
+  {"answer": "GTA 3", "clues": ["First 3D GTA", "Silent hero Claude", "Released 2001"]},
+  {"answer": "Chinatown Wars", "clues": ["Hero Huang Lee", "Made for Nintendo DS", "Released 2009"]},
+  {"answer": "London 1969", "clues": ["First GTA add-on", "Swinging Sixties", "Released 1999"]}
+ ]
+}
