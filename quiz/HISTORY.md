@@ -11,3 +11,6 @@
 - Topic: guess the GTA game from 3 clues (card "WHICH GAME?"). Config: quiz/2026-11-27_am_which_game.json, seed 42.
 - Answers: GTA 6, GTA 5, San Andreas, Vice City, GTA 4, GTA 3, Chinatown Wars, London 1969.
 - Engine: added `card` config key (card header text) and auto-shrink of long list answers so they never hit the clue card.
+
+## Performance
+- 2026-11-27 09:52 UK, aa9bZOmfP9I (68 s Who am I?): 431 views, 7 likes, 0 dislikes ~3 h after posting (~140 views/h, 1.6 likes per 100 views).

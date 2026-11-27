@@ -24,7 +24,25 @@ The Kokoro model downloads from huggingface.co on first use. A render takes abou
   of silence after the clues, 1.5), `reveal` (1.5), `seed` (change it each video so the beat differs), `bpm` (100–125).
 - `questions`: exactly 8, each `{"answer": "...", "clues": ["...", "...", "..."]}`, easiest first, hardest last.
 - Clues: 2–4 words each, never containing the answer. Answers at most 15 characters so they fit the list.
-- Aim for 55–70 seconds in total.
+- Aim for 40–50 seconds in total (v2 timing below). The first Short ran 68 s; shorter quizzes keep a higher % viewed and loop more.
+
+## v2 optimisations (27 Nov, after the first Short: 431 views / 7 likes / 0 dislikes in ~3 h)
+- Timing: `"speed": 1.25, "think": 1.0, "reveal": 1.1`. Intro hook at most ~8 words, spoken in under 3 s,
+  e.g. "Name all 8. Most fans fail at 5." Nothing slow before question 1.
+- Clues: 2–3 words each so the voice reads them fast; the strongest clue last.
+- Question 8 (HOPELESS) should be genuinely hard but fair: it drives "I got 7/8!" comments.
+- Outro under 3 s: "Comment your score!" then cut, so the Short loops straight back into the hook.
+- Title formula that worked: "Only Real GTA Fans Can Name All 8 🤯 #GTA #Shorts". Keep the challenge + number + emoji,
+  but vary the wording and the topic noun (games, cities, cars, GTA 6 facts...).
+- Keep one format family (GTA quizzes) so YouTube learns who to show the channel to.
+
+## Performance check (free, do this first every run)
+For every POSTED video in HISTORY.md from the last 3 days, WebFetch
+`https://returnyoutubedislikeapi.com/votes?videoId=VIDEO_ID` (viewCount, likes, dislikes; free, no vidIQ credits).
+Write the numbers and the hours since posting into HISTORY.md. Compare views per hour and likes per 100 views between videos;
+reuse the topic type, title style and length of the best one, and change what the weakest one did.
+Do NOT use vidIQ stats tools (vidiq_video_stats, vidiq_get_videos_by_ids, vidiq_video_comments, vidiq_user_videos):
+they cost 5 credits each and the account has about 1 left until 18 Dec.
 
 ## Topic ideas (rotate, never repeat a question set; check HISTORY.md)
 Who am I? (characters from any GTA game), guess the GTA game from 3 clues, guess the city, guess the year,
