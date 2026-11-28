@@ -36,3 +36,6 @@
 - 2026-11-27 17:00 UK (vidIQ): aa9bZOmfP9I 650 views / 7 likes / 0 comments / 65 vph (68 s); TSJXgGXX63E 540 views / 10 likes / 1 comment / 270 vph (50 s, v2). v2 wins clearly.
 - 2026-11-27 19:45 UK (vidIQ): aa9bZOmfP9I 650 views / 7 likes / 0 comments / 50 vph (13 h); TSJXgGXX63E 923 views / 16 likes / 2 comments / 185 vph (5.7 h, 1.7 likes/100);
   PtSGW_AYH6M (which-game, 55 s) 20 views / 0 likes / 0 comments / 20 vph (1.7 h) — weak start. Characters format with 50 s wins; game-guess format paused.
+- 2026-11-28 08:44 UK (vidIQ): TSJXgGXX63E 1,022 views / 16 likes / 2 comments; aa9bZOmfP9I 683 / 8 / 0; PtSGW_AYH6M (games) 288 / 9 / 0 (3.1% engagement, best like rate);
+  yULEZZz_Y-g (characters part 3) 3 views / 0 likes in 13 h = stuck. Likely: 4 uploads in 13 h, posted <2 h after PtSGW, near-duplicate title/look of TSJXgGXX63E.
+  Owner decided the v4 rules in QUIZ_RUNBOOK.md (8 h spacing, new title angle, new look, rotate topic type, leave stuck videos up, never repost).

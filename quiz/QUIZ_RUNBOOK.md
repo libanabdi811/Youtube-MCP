@@ -49,6 +49,22 @@ The Kokoro model downloads from huggingface.co on first use. A render takes abou
 - Titles: question form "Can You Name All 8 GTA ...? 🤯 #GTA #Shorts" did best so far.
 - The owner replies to comments; keep doing that (it boosts the video).
 
+## v4 rules (owner's decision, 28 Nov 2026 morning) — follow every run
+Why: the 27 Nov 19:47 Short (yULEZZz_Y-g) got 3 views in 13 h after 4 uploads in 13 h with near-identical titles and look.
+- SPACING: at least 8 hours between uploads. Before publishing, check the last POSTED time in HISTORY.md; if it is under 8 h ago,
+  do NOT post this run (tell the owner in one line). Never post extra videos on top of the 10:41 / 19:41 schedule.
+- TITLES: a clearly different title every time. Never reuse the wording pattern of any of the last 3 titles in HISTORY.md
+  (e.g. after "Can You Name All 8 GTA Characters?" do not use "Can You Name These 8 GTA Characters?"). Use a new angle each time,
+  e.g. "Only GTA 6 Players Get #8 🤯", "Name These 8 GTA Villains", "Guess the GTA Car From 3 Clues". Still max 55 chars, has GTA.
+- LOOK: change the look every video, not just the questions: a different background than the last video, a different `card` text
+  (WHO AM I? / WHICH CAR? / WHO SAID IT? / WHERE AM I? ...), and a different colour pair with the new config keys
+  `"accent": [R,G,B]` (title pill + card header, default pink [240,20,85]) and `"card_bg": [R,G,B]` (clue card body, default [18,10,40]).
+  E.g. blue [20,150,240]/[10,30,25], orange [245,120,20]/[30,15,5], green [30,190,90]/[8,25,15], purple [150,60,230]/[20,8,35].
+- TOPIC TYPE: rotate the topic type; never the same type (e.g. "Who am I?" characters) twice in a row. Record the type, card,
+  accent and background in HISTORY.md.
+- STUCK VIDEO: if a posted video is stuck (very low views), leave it up. Never delete it and never repost the same quiz.
+  Tell the owner to check YouTube Studio > Content > Restrictions for that video.
+
 ## Performance check (do this first every run)
 For every POSTED video in HISTORY.md from the last 3 days, WebFetch
 `https://returnyoutubedislikeapi.com/votes?videoId=VIDEO_ID` (viewCount, likes, dislikes; free, no vidIQ credits).

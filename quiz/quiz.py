@@ -55,6 +55,8 @@ bg = ImageEnhance.Color(bg).enhance(1.15)
 
 LEVELS = [("EASY:", (60, 230, 60), [0, 1, 2]), ("MEDIUM:", (245, 235, 30), [3, 4]),
           ("IMPOSSIBLE:", (235, 25, 25), [5, 6]), ("HOPELESS:", (40, 140, 255), [7])]
+ACCENT = tuple(cfg.get("accent", [240, 20, 85]))  # title pill + card header colour
+CARD_BG = tuple(cfg.get("card_bg", [18, 10, 40]))  # clue card body colour
 WORD_COLORS = [(255, 235, 40), (60, 230, 255), (255, 255, 255), (255, 235, 40), (120, 255, 90)]
 
 def txt(d, s, xy, size, fill, stroke=7, anchor="lm"):
@@ -96,8 +98,8 @@ def wrap(text, font, maxw, d):
 def clue_card(qi, tl, timer):
     q = Qs[qi]; card = Image.new("RGBA", (CW, CH), (0, 0, 0, 0)); d = ImageDraw.Draw(card)
     d.rounded_rectangle([0, 0, CW - 1, CH - 1], radius=44, fill=(255, 255, 255, 255))
-    d.rounded_rectangle([8, 8, CW - 9, CH - 9], radius=38, fill=(18, 10, 40, 235))
-    d.rounded_rectangle([8, 8, CW - 9, 140], radius=38, fill=(240, 20, 85, 255)); d.rectangle([8, 100, CW - 9, 140], fill=(240, 20, 85, 255))
+    d.rounded_rectangle([8, 8, CW - 9, CH - 9], radius=38, fill=CARD_BG + (235,))
+    d.rounded_rectangle([8, 8, CW - 9, 140], radius=38, fill=ACCENT + (255,)); d.rectangle([8, 100, CW - 9, 140], fill=ACCENT + (255,))
     txt(d, cfg.get("card", "WHO AM I?"), (CW // 2, 78), 70, (255, 255, 255), 6, "mm")
     n = len(q["clues"]); span = max(timer - cfg.get("think", 2.0), 0.5)
     y = 200; f = F(60)
@@ -117,7 +119,7 @@ def base_frame(t, revealed_upto, partial=None):
     im = bg.copy().convert("RGBA"); d = ImageDraw.Draw(im)
     # title pill
     title = cfg.get("title", "GTA 6 QUIZ")
-    d.rounded_rectangle([150, 120, W - 150, 255], radius=26, fill=(240, 20, 85), outline=(255, 255, 255), width=4)
+    d.rounded_rectangle([150, 120, W - 150, 255], radius=26, fill=ACCENT, outline=(255, 255, 255), width=4)
     txt(d, title, (W // 2, 192), 96, (255, 255, 255), 8, "mm")
     return im, d
 
