@@ -39,3 +39,13 @@
 - 2026-11-28 08:44 UK (vidIQ): TSJXgGXX63E 1,022 views / 16 likes / 2 comments; aa9bZOmfP9I 683 / 8 / 0; PtSGW_AYH6M (games) 288 / 9 / 0 (3.1% engagement, best like rate);
   yULEZZz_Y-g (characters part 3) 3 views / 0 likes in 13 h = stuck. Likely: 4 uploads in 13 h, posted <2 h after PtSGW, near-duplicate title/look of TSJXgGXX63E.
   Owner decided the v4 rules in QUIZ_RUNBOOK.md (8 h spacing, new title angle, new look, rotate topic type, leave stuck videos up, never repost).
+- 2026-11-28 10:45 UK (vidIQ): TSJXgGXX63E 1,027 views / 16 likes / 2 comments / 51 vph now (1.7% eng); aa9bZOmfP9I 683 / 8 / 0 / 24 vph;
+  PtSGW_AYH6M (games) 288 / 9 / 0 / 18 vph (3.1% eng, best like rate); yULEZZz_Y-g 3 / 0 / 0 after ~15 h = still stuck (left up, owner told to check Studio Restrictions).
+  Improvements for this run: new topic type (vehicles, not characters), new title pattern ("Guess the ... From 3 Clues"), new look (orange, motel bg, WHICH RIDE? card), 15 h gap since last upload.
+
+## 2026-11-28 AM (scheduled run) — "Guess the GTA Ride From 3 Clues 🚗 #GTA #Shorts" — POSTED
+- Topic type: vehicles (guess the vehicle). Card "WHICH RIDE?", accent [245,120,20] / card_bg [30,15,5] (orange), background bg/neon_motel_red_car.jpg.
+  Config quiz/2026-11-28_am_which_ride.json, seed 5527, bpm 112, 49.7 s.
+- Answers: Rhino, Faggio, Oppressor Mk II, Hydra, Infernus, Airboat (GTA 6, checked with WebSearch), Kuruma, Skimmer.
+- Reviewer agent: PASS first time (notes: "Pegassi" clue used twice; Airboat maybe easy for #6).
+- POSTED 2026-11-28 10:48 UK: https://www.youtube.com/watch?v=tqyXakns88Q (video ID tqyXakns88Q, v/2026-11-28_quiz_am_which_ride.mp4).

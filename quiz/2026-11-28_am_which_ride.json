@@ -1,0 +1,19 @@
+{
+ "title": "GTA QUIZ",
+ "card": "WHICH RIDE?",
+ "background": "bg/neon_motel_red_car.jpg",
+ "accent": [245, 120, 20], "card_bg": [30, 15, 5],
+ "intro": "Name all 8 rides. Most fans fail at 6.",
+ "outro": "Comment your answers!",
+ "voice": "am_michael", "speed": 1.25, "think": 0.9, "reveal": 1.0, "seed": 5527, "bpm": 112, "music_volume": 0.5,
+ "questions": [
+  {"answer": "Rhino", "clues": ["GTA 5", "Fort Zancudo", "Army tank"]},
+  {"answer": "Faggio", "clues": ["Pegassi", "Very slow", "Tiny scooter"]},
+  {"answer": "Oppressor Mk II", "clues": ["GTA Online", "Homing missiles", "Flying motorbike"]},
+  {"answer": "Hydra", "clues": ["San Andreas", "Fighter jet", "Hovers in place"]},
+  {"answer": "Infernus", "clues": ["Since GTA 3", "Pegassi", "Classic supercar"]},
+  {"answer": "Airboat", "clues": ["GTA 6", "Leonida swamps", "Giant fan"]},
+  {"answer": "Kuruma", "clues": ["Karin", "Fleeca Job", "Armored sedan"]},
+  {"answer": "Skimmer", "clues": ["Vice City", "Propeller plane", "Lands on water"]}
+ ]
+}
