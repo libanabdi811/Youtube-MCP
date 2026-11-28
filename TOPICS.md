@@ -143,3 +143,10 @@ Ideas next run (19 Nov = LAUNCH DAY): launch-day reaction skits; real critic sco
 
 ## Performance (vidiq_user_videos, 2026-11-18 06:35 UK)
 - Still no public GTA videos: channel lists only the 11 old marriage Shorts (all private) and nothing scheduled. GTA batches 1–5 were never approved/published, so there are no GTA view counts yet.
+
+## Performance review (vidiq_user_videos, 2026-11-28 09:07 UK) — 4 public GTA quiz Shorts, all under 27 h old (too early for firm conclusions)
+- TSJXgGXX63E "Can You Name All 8 GTA Characters?" (Who am I? 2, 50 s): 1,022 views, 19 h, 53 vph, 1.6 likes/100, 0.2 comments/100 — best.
+- aa9bZOmfP9I "Only Real GTA Fans Can Name All 8" (Who am I? 1, 69 s): 683 views, 26 h, 26 vph, 1.2 likes/100, 0 comments.
+- PtSGW_AYH6M "Can You Name These 8 GTA Games?" (which game, 55 s): 287 views, 15 h, 19 vph, 3.1 likes/100 (best like rate), 0 comments.
+- yULEZZz_Y-g "Can You Name These 8 GTA Characters?" (Who am I? 3, 51 s): 4 views, 13 h, 0.3 vph — stuck (posted 1 h 47 min after PtSGW; near-duplicate title/look). Leave up, don't repost.
+- Takeaways: quiz format works (~50 s beats 69 s); characters reach most, games quiz gets more likes per viewer; space uploads 8 h+, vary title and look (QUIZ_RUNBOOK v4).
